@@ -5,8 +5,7 @@ Usage: python -m file_organizer <path> [--dry-run]
 
 import argparse
 import sys
-from file_organizer.organizer import organize_folder, print_summary
-
+from organizer import organize_folder, print_summary
 
 def main():
     parser = argparse.ArgumentParser(
